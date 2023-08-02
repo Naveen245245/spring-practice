@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hi Hello World:</h1><span th:text="${dateKey}" />
+    <h1>Download Report</h1>
+    <form id=“fileForm”>
+        <label for=“accountId”>Account ID:</label>
+        <input type=“text” id=“accountId” required><br>
+        <label for=“startDate”>Start Date:</label>
+        <input type=“date” id=“startDate” required><br>
+        <label for=“endDate”>End Date:</label>
+        <input type=“date” id=“endDate” required><br>
+        <label for=“source”>Source:</label>
+        <input type=“String” id=“source” required><br>
+        <label for=“source_type”>Source_Type:</label>
+        <input type=“String” id=“source_type” required><br>
+        <label for=“pagination”>Pagination:</label>
+        <input type=“int” id=“pagination” required><br>
+        <label for=“offset”>Offset:</label>
+        <input type=“int” id=“offset” required><br>
+        <label for=“limit”>Limit:</label>
+        <input type=“int” id=“limit” required><br>
+        
+    </form>
+</body>
+</html>

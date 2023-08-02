@@ -1,0 +1,91 @@
+1.[{
+	"resource": "/D:/Professional/S360/Java/GSJavaInVscode/spring-jsp/spring-jsp/src/main/java/com/s360/springjsp/model/User.java",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": "16777218",
+	"severity": 8,
+	"message": "NotBlank cannot be resolved to a type",
+	"source": "Java",
+	"startLineNumber": 15,
+	"startColumn": 5,
+	"endLineNumber": 15,
+	"endColumn": 14
+}]
+-------------------------
+2.The method getForEntity(URI, Class<T>) in the type RestTemplate is not applicable for the arguments (URL, Class<FBResponse>)
+
+===========================
+
+
+{
+  "referenceId": "REF-1690435118213",
+  "success": true,
+  "data": {
+    "posts": [],
+    "pagination": {
+      "offset": 0,
+      "limit": 5,
+      "total": 1806,
+      "hasNext": true
+    }
+  }
+}
+
+
+{
+        "postId": "220361347991808_678047204367592",
+        "createdOnGMT": "2023-07-18 00:40:33",
+        "imageUrl": "https://external-iad3-2.xx.fbcdn.net/emg1/v/t13/4741949155430441958?url=https%3A%2F%2Fwww.maxlifeinsurance.com%2Fterm-insurance-plans%2Fpremium-calculator%2Fassets%2Fbanner-rohit-sharma-desktop.webp&fb_obo=1&utld=maxlifeinsurance.com&ccb=13-1&_nc_sid=5109ac&stp=dst-emg0_q75&ur=64c8fc&oh=06_AbFit6OaiBPblx_5o7-1YgyFkNg0syxmP6iQmowlRuoVdw&oe=64B7C36E",
+        "brandLogo": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/352721166_562968809241792_7357393339398311149_n.jpg?stp=cp0_dst-jpg_p50x50&_nc_cat=1&ccb=1-7&_nc_sid=dbb9e7&_nc_ohc=5IRddQP6TgYAX8uV81u&_nc_ht=scontent-iad3-2.xx&edm=AJdBtusEAAAA&oh=00_AfCEW_lDJjj2o8k8L25h64n2hjsv5cuvmclBIwupmjIg7A&oe=64B72F50",
+        "message": "{{product.brand}}",
+        "channelName": "Max Life Insurance",
+        "reactionsCount": 0,
+        "likesCount": 0,
+        "commentsCount": 0,
+        "sharesCount": 0,
+        "engagement": 21992,
+        "s360Engagement": 0,
+        "reach": 1421567,
+        "impression": 3191481,
+        "postType": "link",
+        "videoUrl": "",
+        "permalink": "https://www.facebook.com/220361347991808/posts/678047204367592",
+        "title": "{{product.name}}",
+        "description": "{{product.description}}",
+        "channelId": 220361347991808,
+        "admin": true,
+        "userName": "Max Life Insurance",
+        "post_clicks_by_type_linkclicks": 20920,
+        "post_clicks_by_type_otherclicks": 4366,
+        "post_clicks_by_type_photoview": 0,
+        "post_impressions_lifetime": 3191481,
+        "post_impressions_unique_lifetime": 1421567,
+        "post_impressions_paid_lifetime": 3191481,
+        "post_impressions_paid_unique_lifetime": 1421567,
+        "post_impressions_organic_lifetime": 0,
+        "post_impressions_organic_unique_lifetime": 0,
+        "post_video_views_lifetime": 0,
+        "post_video_views_organic_lifetime": 0,
+        "post_video_views_paid_lifetime": 0,
+        "post_negative_feedback_lifetime": 0,
+        "post_engaged_users_lifetime": 21992,
+        "post_reactions_like_total_lifetime": 0,
+        "post_reactions_love_total": 0,
+        "post_reactions_wow_total": 0,
+        "post_reactions_haha_total": 0,
+        "post_reactions_sorry_total": 0,
+        "post_reactions_anger_total": 0,
+        "post_reactions_by_type_total_lifetime": 0,
+        "paidPost": true,
+        "isAdsPost": true,
+        "docKey": "fb_1_220361347991808_678047204367592"
+      }
+
+
+      =======
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'navinetchno@gmail.com'
+EMAIL_HOST_PASSWORD = 'ebctxfliuwpcmnzu'

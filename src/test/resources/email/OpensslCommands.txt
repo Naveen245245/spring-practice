@@ -1,0 +1,2 @@
+1.openssl s_client -crlf -connect imap.gmail.com:993 // to connect to server
+2.tag login user@outlook.com password //authentication

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Download Report</h1>
+    <form action="#" th:action="@{/clientCall}" th:object="${report}" method="post">
+        <label for="accountId">Account ID:</label>
+        <input type="text" th:field="*{accountId}" id="accountId" required><br>
+        <label for="startDate">Start Date:</label>
+        <input type="date" th:field="*{startDate}" id="startDate" required><br>
+        <label for="endDate">End Date:</label>
+        <input type="date" th:field="*{endDate}" id="endDate" required><br>
+        <label for="source">Source:</label>
+        <input type="text" th:field="*{source}" id="source" required><br>
+        <label for="sourceType">SourceType:</label>
+        <input type="text" th:field="*{sourceType}" id="sourceType" required><br>
+        <label for="pagination">Pagination:</label>
+        <input type="number" th:field="*{pagination}"id="pagination" required><br>
+        <label for="offset">Offset:</label>
+        <input type="number" th:field="*{offset}" id="offset" required><br>
+        <label for="limit">Limit:</label>
+        <input type="number" th:field="*{limit}" id="limit" required><br>
+        <input type="submit" value="Submit Report">   
+    </form>
+</body>
+</html>
